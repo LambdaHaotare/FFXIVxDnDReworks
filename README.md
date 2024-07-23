@@ -1,0 +1,1 @@
+These are individual JSON files in the 5etools format for classes in SilentSoren's FFXIVxD&D 5th Edition player handbook. As the original 5etools repository appears to be abandoned, I've taken it on myself to convert class reworks as of the Meteor Survivor edition.
