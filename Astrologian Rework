@@ -9,15 +9,15 @@
 					"SilentSoren"
 				],
 				"convertedBy": [
-					"LambdaHaotare"
+					"Haotare"
 				],
 				"url": "https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv",
-				"version": "Meteor Survivor",
+				"version": "Meteor Survivor Edition",
 				"color": "867d5a"
 			}
 		],
-		"dateAdded": 1721433927,
-		"dateLastModified": 1721433927
+		"dateAdded": 1699223432,
+		"dateLastModified": 1699223432
 	},
 	"subclass": [
 		{
@@ -25,12 +25,11 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 27,
+			"page": 8,
 			"shortName": "Sharlayan Astrology",
 			"subclassFeatures": [
 				"Sharlayan Astrology|Astrologian|FFXIV|Sharlayan Astrology|FFXIV|1",
-				"Fortunate Healer|Astrologian|FFXIV|Sharlayan Astrology|FFXIV|1",
-				"Premonition Reading|Astrologian|FFXIV|Sharlayan Astrology|FFXIV|3",
+				"Premoniton Reading|Astrologian|FFXIV|Sharlayan Astrology|FFXIV|3",
 				"Aspected Benefic|Astrologian|FFXIV|Sharlayan Astrology|FFXIV|6",
 				"Lightspeed|Astrologian|FFXIV|Sharlayan Astrology|FFXIV|10",
 				"Astral Fortune|Astrologian|FFXIV|Sharlayan Astrology|FFXIV|14"
@@ -41,12 +40,10 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 27,
+			"page": 8,
 			"shortName": "Geomancy",
 			"subclassFeatures": [
 				"Geomancy|Astrologian|FFXIV|Geomancy|FFXIV|1",
-				"Expanded Spell List|Astrologian|FFXIV|Geomancy|FFXIV|1",
-				"Whispers of the Earth|Astrologian|FFXIV|Geomancy|FFXIV|1",
 				"Leyline Manipulation: Troubled Roads|Astrologian|FFXIV|Geomancy|FFXIV|3",
 				"Leyline Manipulation: Cleared Paths|Astrologian|FFXIV|Geomancy|FFXIV|6",
 				"Blessed Traveller|Astrologian|FFXIV|Geomancy|FFXIV|10",
@@ -58,11 +55,10 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 27,
+			"page": 8,
 			"shortName": "Fortuneteller",
 			"subclassFeatures": [
 				"Fortuneteller|Astrologian|FFXIV|Fortuneteller|FFXIV|1",
-				"Minor Arcana|Astrologian|FFXIV|Fortuneteller|FFXIV|1",
 				"Twisting Fate|Astrologian|FFXIV|Fortuneteller|FFXIV|3",
 				"Horoscope|Astrologian|FFXIV|Fortuneteller|FFXIV|6",
 				"Reversed Fortune|Astrologian|FFXIV|Fortuneteller|FFXIV|10",
@@ -74,7 +70,7 @@
 		{
 			"name": "Astrologian",
 			"source": "FFXIV",
-			"page": 27,
+			"page": 29,
 			"hd": {
 				"number": 1,
 				"faces": 8
@@ -84,6 +80,9 @@
 				"cha"
 			],
 			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
 				"weapons": [
 					"{@item dagger|phb|daggers}",
 					"{@item dart|phb|darts}",
@@ -110,9 +109,7 @@
 					}
 				]
 			},
-			
-			"startingEquipment": 
-			{
+			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
 					"a {@item dagger|phb}",
@@ -149,9 +146,7 @@
 						]
 					}
 				]
-			}
-		}
-	],
+			},
 			"classTableGroups": [
 				{
 					"colLabels": [
@@ -218,6 +213,7 @@
 						[
 							5
 						]
+					
 					]
 				},
 				{
@@ -457,47 +453,70 @@
 					]
 				}
 			],
+			"spellsKnownProgression": [
+				0,
+				2,
+				3,
+				3,
+				4,
+				4,
+				5,
+				5,
+				6,
+				6,
+				7,
+				7,
+				8,
+				8,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11
+			],
 			"multiclassing": {
 				"requirements": {
 					"wis": 13
-				},
+				}
+            },
 			"classFeatures": [
 				"Spellcasting|Astrologian|FFXIV|1",
-				"Divination|Astrologian|FFXIV|1",
+				"Divination Draw|Astrologian|FFXIV|1",
 				{
-					"classFeature": "Divination School Feature|Astrologian|FFXIV|1",
+					"classFeature": "Dviniation School|Astrologian|FFXIV|1",
 					"gainSubclassFeature": true
 				},
 				"Astrodyne|Astrologian|FFXIV|2",
 				"Time Dilation|Astrologian|FFXIV|2",
 				{
-					"classFeature": "Divination School Feature|Astrologian|FFXIV|3",
+					"classFeature": "Dviniation School Feature|Astrologian|FFXIV|3",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Astrologian|FFXIV|4",
 				"Redivine|Astrologian|FFXIV|5",
 				{
-					"classFeature": "Divination School Feature|Astrologian|FFXIV|6",
+					"classFeature": "Dviniation School Feature|Astrologian|FFXIV|6",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Astrologian|FFXIV|8",
 				{
-					"classFeature": "Divination School Feature|Astrologian|FFXIV|10",
+					"classFeature": "Dviniation School Feature|Astrologian|FFXIV|10",
 					"gainSubclassFeature": true
 				},
-				"Spread|Astrologian|FFXIV|5",
+				"Spread|Astrologian|FFXIV|11",
 				"Ability Score Improvement|Astrologian|FFXIV|12",
 				{
-					"classFeature": "Divination School Feature|Astrologian|FFXIV|14",
+					"classFeature": "Dviniation School Feature|Astrologian|FFXIV|14",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Astrologian|FFXIV|16",
 				"Dual Divination|Astrologian|FFXIV|17",
-                "Exaltation|Astrologian|FFXIV|17",
+				"Exaltation|Astrologian|FFXIV|18",
 				"Ability Score Improvement|Astrologian|FFXIV|19",
 				"Strings of Fate|Astrologian|FFXIV|20"
 			],
-			"subclassTitle": "Archetype",
+			"subclassTitle": "Dviniation School",
 			"fluff": [
 				{
 					"type": "section",
@@ -700,9 +719,31 @@
 				"True Resurrection",
 				"Wish"
 			],
-			"spellcastingAbility": "wis"
-		},
-
+			"cantripProgression": [
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			],
+			"hasFluff": true
+		}
+	],
 	"classFeature": [
 		{
 			"name": "Spellcasting",
@@ -768,35 +809,23 @@
 			]
 		},
 		{
-			"name": "Divination School",
-			"source": "FFXIV",
-			"className": "Astrologian",
-			"classSource": "FFXIV",
-			"page": 35,
-			"level": 2,
-			"entries": [
-				"At 1st level, you choose the divination school you learned astromancy under: the Sharlayan school, Geomancy school or as an independent Fortuneteller, all detailed at the end of the class description. Your archetype choice grants you features at the 1st, 3rd, 6th, 10th and 14th level."
-			]
-		},
-		{
-			"name": "Draw",
+			"name": "Divination Draw",
 			"source": "FFXIV",
 			"page": 35,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"level": 1,
 			"entries": [
-				"Also starting at the 1st level, as an action you are able to draw a card from your deck of sixty and empower an ally according to the drawn card.",
-				"Roll {@dice 1d6}, the number shown corresponds to the drawn card. Once drawn, you may apply the empowering effect to yourself or another creature within 30ft. that you can see. The card releases the energy within and the card returns to the deck.",
-				"The effect of the boon lasts for a number of rounds equal to your Wisdom ability modifier with a minimum of 1 round. You must use temporary resources within this time otherwise they are lost. A creature may only have one Draw effect affecting them at a time. A new effect replaces the old effect.",
-				"The Available Draws column of the astrologian table shows the number of times you can draw cards for your astrologian level. You regain all of your expended uses of draw when you finish a long rest.",
+				"Also starting at 1st level, as an action, you have learned to use your divination tools to draw forth power and bestow it to others by performing a reading. As an action you roll 1d6, the number shown corresponds to the divination result. You then may apply the effect to yourself or another creature within 30ft. that you can see.",
+				"The effect of the boon lasts for a number of rounds equal to your Wisdom modifier with a minimum of 1 round. A creature may only have one Divination effect at a time and applying a new effect replaces the old effect.",
+				"You may complete a number of divination readings equal to your Astrologian level. These uses of Divination are recovered when you complete a short or long rest.",
 				{
 					"type": "table",
-					"caption": "Draw Effects",
+					"caption": "Divination Effects",
 					"colLabels": [
-						"Card Drawn",
+						"Divination Drawn",
 						"Die Result",
-						"Card Effect"
+						"Divination Effect"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -805,32 +834,32 @@
 					],
 					"rows": [
 						[
-							"The Balance",
+							"Bravery",
 							"1",
 							"Bonus {@dice 1d6} damage on all damage effects. This increases to {@dice 2d6} at the 5th level, {@dice 3d6} at the 11th level and {@dice 4d6} at the 17th level."
 						],
 						[
-							"The Bole",
+							"Resilience",
 							"2",
 							"All damage you take is reduced by {@dice 1d6}. This increases to {@dice 2d6} at the 5th level, {@dice 3d6} at the 11th level and {@dice 4d6} at the 17th level."
 						],
 						[
-							"The Arrow",
+							"Activity",
 							"3",
 							"You gain one extra attack when you take the {@action Attack|PHB} action."
 						],
 						[
-							"The Spear",
+							"Precision",
 							"4",
 							"Your attack rolls crit on a 19 or 20 die result."
 						],
 						[
-							"The Ewer",
+							"Knowledge",
 							"5",
 							"Creature has advantage on saving throws against spell effects."
 						],
 						[
-							"The Spire",
+							"Triumph",
 							"6",
 							"Creature has advantage on attack rolls."
 						]
@@ -839,23 +868,24 @@
 				
 			]
 		},
+		
 		{
 			"name": "Astrodyne",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 31,
+			"page": 44,
 			"level": 2,
 			"entries": [
-				"Also beginning at 2nd level, you have learned to weave your spells to power your influence over the strings of fate. When you cast a spell using a spell slot, you regain a Divination."
-				]
+				"Beginning at 2nd level, you have learned to weave your spells to power your influence over the strings of fate. When you cast a spell using a spell slot, you regain a Divination."
+			]
 		},
 		{
 			"name": "Time Dilation",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 31,
+			"page": 44,
 			"level": 2,
 			"entries": [
 				"At 2nd level, you have learned how to delay the release of your spells, allowing them to grow in power or activate at the perfect moment. When you cast a spell you can choose to concentrate on the spell and as a reaction cause the spell to take effect. If you concentrate on the spell in this way until your next turn, its effect will be released as though you cast it one level higher than you originally cast it. You may only increase the spell level by one in this way.",
@@ -864,69 +894,58 @@
 			]
 		},
 		{
-			"name": "Divination School",
+			"name": "Dviniation School",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 30,
-			"level": 3,
-			"entries": [
-				"At 3rd level, you select your divination school which will guide your progression as you expand your skill set. The God's Quiver is a self assured traditionalist who relies fully on their marksmanship, the Geomancy focuses on the magical power of song and the Shadow Point who makes use of every advantage at their disposal to weaken their foes via poison and treachery."
-			]
-		},
-				{
-			"name": "Archetype Feature",
-			"source": "FFXIV",
-			"className": "Astrologian",
-			"classSource": "FFXIV",
-			"page": 30,
+			"page": 45,
 			"level": 1,
 			"entries": [
-				"At 1st level, you gain a feature granted by your Divination School."
+				"At 1st level, you choose the divination school you learned astromancy under: the Sharlayan school, Geomancy school or as an independent Fortuneteller, all detailed at the end of the class description. Your Dviniation School choice grants you features at the 1st, 3rd, 6th, 10th and 14th level."
 			]
 		},
 		{
-			"name": "Archetype Feature",
+			"name": "Dviniation School Feature",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 30,
+			"page": 45,
 			"level": 3,
 			"entries": [
-				"At 3rd level, you gain a feature granted by your Divination School."
+				"At 3rd level, you gain a feature granted by your Dviniation School"
 			]
 		},
 		{
-			"name": "Archetype Feature",
+			"name": "Dviniation School Feature",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 30,
+			"page": 45,
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain a feature granted by your Divination School."
+				"At 7th level, you gain a feature granted by your Dviniation School."
 			]
 		},
 		{
-			"name": "Archetype Feature",
+			"name": "Dviniation School Feature",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 30,
+			"page": 45,
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain a feature granted by your Divination School."
+				"At 11th level, you gain a feature granted by your Dviniation School."
 			]
 		},
 		{
-			"name": "Archetype Feature",
+			"name": "Dviniation School Feature",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 30,
+			"page": 45,
 			"level": 14,
 			"entries": [
-				"At 14th level, you gain a feature granted by your Divination School."
+				"At 15th level, you gain a feature granted by your Dviniation School."
 			]
 		},
 		{
@@ -934,7 +953,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 30,
+			"page": 45,
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -946,7 +965,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 30,
+			"page": 45,
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -958,7 +977,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 30,
+			"page": 45,
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -970,7 +989,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 30,
+			"page": 45,
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -982,7 +1001,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 30,
+			"page": 45,
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -994,7 +1013,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 31,
+			"page": 45,
 			"level": 5,
 			"entries": [
 				"Beginning at the 5th level, when you use the Divination feature, as a bonus action you may reroll the result of the d6 before applying its effect. You may only use the new result."
@@ -1003,26 +1022,24 @@
 		{
 			"name": "Spread",
 			"source": "FFXIV",
-			"page": 31,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
+			"page": 45,
 			"level": 11,
 			"entries": [
-				"Beginning at the 11th level, when you use the Divination feature, as a bonus action you may set set the effect aside for later use, adding it to your spread. You may have a number of divinations in your spread equal to your Wisdom modifier.",
+				"Beginning at 10th level, you gain advantage on charisma saving throws.",
 				"On your turn, as a bonus action you may use any effect from your spread. The divinations in your spread lose their power when you complete a long rest."
-				
-					]
+			]
 		},
 		{
 			"name": "Dual Divination",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 31,
+			"page": 45,
 			"level": 17,
 			"entries": [
-				"Beginning at the 11th level, when you use the Divination feature, as a bonus action you may set set the effect aside for later use, adding it to your spread. You may have a number of divinations in your spread equal to your Wisdom modifier.",
-				"On your turn, as a bonus action you may use any effect from your spread. The divinations in your spread lose their power when you complete a long rest."
+				"Beginning at the 17th level, when you use the Divination action, you may perform and use two divinations. Each result consumes an available divination. As a bonus action you may place one or both divinations into your spread."
 			]
 		},
 		{
@@ -1030,7 +1047,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 31,
+			"page": 45,
 			"level": 18,
 			"entries": [
 				"Beginning at 18th level, as an action, you may expend an available divination to reapply a Divination effect on a creature within Divination range."
@@ -1041,19 +1058,18 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 31,
-			"level": 18,
+			"page": 45,
+			"level": 20,
 			"entries": [
 				"Beginning at the 20th level, when you roll initiative you recover a number of available divinations equal to your Wisdom modifier."
 			]
 		}
-		
 	],
 	"subclassFeature": [
 		{
 			"name": "Sharlayan Astrology",
 			"source": "FFXIV",
-			"page": 31,
+			"page": 45,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Sharlayan Astrology",
@@ -1063,12 +1079,12 @@
 				"The Sharlayans make use of astrometers, spherical devices with many measurement tools and lenses, to read the stars and combine their tool with the Deck of Sixty, a tarot deck featuring the twelve gods of Eorzea. With these tools they attempt to learn the fate written in the stars to help guide their friends, allies and in some cases their homelands themselves. They draw their magic from the stars and use it to punish foes with stellar magics and heal the wounded with celestial energy.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fortunate Healer|Astrologian|FFXIV|Sharlayan Astrology|FFXIV|1"
+					"subclassFeature": "Fortunate Healing|Astrologian|FFXIV|Sharlayan Astrology|FFXIV|1"
 				}
 			]
 		},
 		{
-			"name": "Fortunate Healer",
+			"name": "Fortunate Healing",
 			"source": "FFXIV",
 			"page": 45,
 			"className": "Astrologian",
@@ -1083,7 +1099,7 @@
 			]
 		},
 		{
-			"name": "Premonition Reading",
+			"name": "Premoniton Reading",
 			"source": "FFXIV",
 			"page": 45,
 			"className": "Astrologian",
@@ -1093,7 +1109,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3th-level Sharlayan Astrology feature}",
+				"{@i 3rd-level Sharlayan Astrology feature}",
 				"Beginning at 3rd level, you may expend an available draw to assist you in revealing dangers of the area. As an action you may do a quick reading to scan for traps in the area, giving you advantage on perception checks for 1 minute."
 			]
 		},
@@ -1120,7 +1136,7 @@
 			"classSource": "FFXIV",
 			"subclassShortName": "Sharlayan Astrology",
 			"subclassSource": "FFXIV",
-			"level": 10	,
+			"level": 10,
 			"header": 2,
 			"entries": [
 				"{@i 10th-level Sharlayan Astrology feature}",
@@ -1135,7 +1151,7 @@
 			"classSource": "FFXIV",
 			"subclassShortName": "Sharlayan Astrology",
 			"subclassSource": "FFXIV",
-			"level": 14	,
+			"level": 14,
 			"header": 2,
 			"entries": [
 				"{@i 14th-level Sharlayan Astrology feature}",
@@ -1150,12 +1166,16 @@
 			"classSource": "FFXIV",
 			"subclassShortName": "Geomancy",
 			"subclassSource": "FFXIV",
-			"level": 3,
+			"level": 1,
 			"entries": [
 				"In the far east in the land of Hingashi, Geomancers fill the role of diviners in society. These scholars look to the leylines of the planet and divination tools related to the earth and bells to read markings in the land to perceive potential futures, as though fate had been imprinted upon the ground we walk, its the Geomancers with the ability to uncover these secrets.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Expanded Spell List|Astrologian|FFXIV|Geomancy|FFXIV|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Earthwalker|Astrologian|FFXIV|Geomancy|FFXIV|1"
 				}
 			]
 		},
@@ -1209,7 +1229,7 @@
 			]
 		},
 		{
-			"name": "Whispers of the Earth",
+			"name": "Earthwalker",
 			"source": "FFXIV",
 			"page": 32,
 			"className": "Astrologian",
@@ -1348,14 +1368,14 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10h-level Geomancy feature}",
+				"{@i 10th-level Geomancy feature}",
 				"Beginning at 10th level, you passively manipulate aether of the ground you walk on. Difficult Terrain does not impede your movement and you gain a climbing speed equal to your movement speed and gain the ability to move up, down, and across vertical surfaces while leaving your hands free."
 			]
 		},
 		{
 			"name": "Gaia Aura",
 			"source": "FFXIV",
-			"page": 46,
+			"page": 45,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Geomancy",
@@ -1363,7 +1383,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Geomancy feature}",
+				"{@i 14th-level Sharlayan Astrology feature}",
 				"Beginning at 14th level, you may use Leyline Manipulation and center the effect on yourself in a radius up to 20ft. You are unaffected by the negative effects of the area and you may designate up to a number of creatures equal to your wisdom ability modifier to be immune to the effect as well. When you move the area moves with you."
 			]
 		},
@@ -1397,7 +1417,7 @@
 			"entries": [
 				"{@i 1st-level Fortuneteller feature}",
 				"Beginning at 1st level, you have learned to take advantage of the minor arcana of your tarot deck or more subtle details of your divination. When you use the Divination feature, on a die result 1, 3 or 5 you may use the card to make a ranged Spell attack that deals 1d6 + your Wisdom modifier force damage to a creature within 30ft. of you that you can see. On a die result 2, 4 or 6 you may use the card to heal 1d6 + your Wisdom modifier hit points to a creature within 30ft. of you that you can see. The potency of this effect increases to 2d6 at 6th level, 3d6 at 10th level and 4d6 at the 14th level.",
-				"You may not use both the effect of Divination and Minor Arcana in a single action."		
+				"You may not use both the effect of Divination and Minor Arcana in a single action."
 			]
 		},
 		{
@@ -1411,12 +1431,11 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3th-level Fortuneteller feature}",
+				"{@i 3rd-level Fortuneteller feature}",
 				"Beginning at 3rd level, you have learned how to bend the results of your fortune telling. When you use your Divination feature, you may roll 2d6 and select which die is the true result of the reading."
 			]
 		},
 		{
-		
 			"name": "Horoscope",
 			"source": "FFXIV",
 			"page": 46,
@@ -1428,18 +1447,21 @@
 			"header": 2,
 			"entries": [
 				"{@i 6th-level Fortuneteller feature}",
-				"Beginning at 10th level, when you use the Divination feature you may choose to apply a reversed divination to a creature, bringing bad omens to the creature. The creature must make a Charisma saving throw against your Spell Save DC, suffering the effect for 1 minute on a failure. They may use their action on their turn to re-attempt the saving throw. The effects of Reversed Fortune are as follows:"
+				"Beginning at 6th level, you may use your Time Dialation feature on your Divination or Minor Arcana features. If you maintain concentration until your next turn you can change the result to a result of your choice."
 			]
 		},
 		{
 			"name": "Reversed Fortune",
 			"source": "FFXIV",
-			"page": 35,
+			"page": 46,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
+			"subclassShortName": "Fortuneteller",
+			"subclassSource": "FFXIV",
 			"level": 10,
 			"header": 2,
 			"entries": [
+				"{@i 10th-level Fortuneteller feature}",
 				"Beginning at 10th level, when you use the Divination feature you may choose to apply a reversed divination to a creature, bringing bad omens to the creature. The creature must make a Charisma saving throw against your Spell Save DC, suffering the effect for 1 minute on a failure. They may use their action on their turn to re-attempt the saving throw. The effects of Reversed Fortune are as follows:",
 				{
 					"type": "table",
@@ -1483,18 +1505,18 @@
 						[
 							"Failure",
 							"6",
-							"Creature has disadvantage on attack rolls."
+							"Creature has disadvantage on attack rolls.."
 						]
+					
 					]
 				}
 				
 			]
 		},
-	
 		{
 			"name": "Greater Divination",
 			"source": "FFXIV",
-			"page": 46,
+			"page": 45,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Fortuneteller",
@@ -1502,7 +1524,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Fortuneteller feature}",
+				"{@i 14th-level Sharlayan Astrology feature}",
 				"Beginning at 14th level, as an action you may make use of each of your card divination features. Roll 6d6 and select 3 results. Two are added to your Spread and one may be used for the Divination or Minor Arcana feature. This expends three uses of Divination. You may use Greater Divination once. Use of this feature is recovered when you complete a short or long rest."
 			]
 		}
