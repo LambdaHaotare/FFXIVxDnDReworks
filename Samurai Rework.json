@@ -12,13 +12,15 @@
 					"Haotare"
 				],
 				"url": "https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv",
-				"version": "Before The Fall Edition",
+				"version": "Meteor Survivor Edition",
 				"color": "867d5a"
 			}
 		],
 		"optionalFeatureTypes": {
-			"SM:SE": "Samurai; Sword Artes"
+			"SM:SE": "Samurai; Sword Artes",
+			"SM:FS": "Samurai; Fighting Style" 
 		},
+		
 		"dateAdded": 1721673199,
 		"dateLastModified": 1721673199
 	},
@@ -187,7 +189,7 @@
 							"-"
 						],
 						[
-							"+-"
+							"-"
 						],
 						[
 							"-"
@@ -374,16 +376,11 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Dextrous Vitality",
-							"entries": ["While you are wielding a versatile weapon with two hands, you focus on expertly controlling the weapon instead of increasing the power of your swings. The weapon gains the finesse trait and you gain a +1 to attack rolls. You must use the one handed damage of the weapon."]
-						},
-						{
-							"type": "refOptionalfeature",
 							"optionalfeature": "Great Weapon Fighting"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Two Weapon Fighting"
+							"optionalfeature": "Two-Weapon Fighting"
 						}
 					]
 				}
@@ -1237,6 +1234,19 @@
 			"featureType": [
 				"SM:SE"
 			]
+			
+		},
+		{
+			"name": "Dextrous Vitality",
+			"source": "FFXIV",
+			"page": 115 ,
+			"entries": [
+				"While you are wielding a versatile weapon with two hands, you focus on expertly controlling the weapon instead of increasing the power of your swings. The weapon gains the finesse trait and you gain a +1 to attack rolls. You must use the one handed damage of the weapon."
+		],
+			"featureType":[
+				"SM:FS"
+		]
+
 		}
 	]
 }
