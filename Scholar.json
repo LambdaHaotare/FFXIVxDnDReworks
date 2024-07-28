@@ -470,15 +470,10 @@
 				11,
 				11
 			],
-			"multiclassing": {
-				"requirements": {
-					"int": 13
-				}
-            },
 			"classFeatures": [
 				"Spellcasting|Scholar|FFXIV|1",
 				"Tactics|Scholar|FFXIV|1",
-                		"Aetherial Ally|Scholar|FFXIV|2",
+                "Aetherial Ally|Scholar|FFXIV|2",
 				{
 					"classFeature": "Scholar Specialization|Scholar|FFXIV|2",
 					"gainSubclassFeature": true
@@ -498,7 +493,7 @@
 					"classFeature": "Scholar Specialization Feature|Scholar|FFXIV|14",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Scholar|FFXIV|12",
+				"Ability Score Improvement|Scholar|FFXIV|16",
 				"Quicksilver Summoning|Scholar|FFXIV|18",
 				"Ability Score Improvement|Scholar|FFXIV|19",
 				"Grand Design|Scholar|FFXIV|20"
