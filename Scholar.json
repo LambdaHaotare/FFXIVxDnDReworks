@@ -109,29 +109,17 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"a {@item dagger|phb}",
-					"a Star Globe",
-					"a Divination Deck",
-					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}"
+					"(a) a {@item quarterstaff|phb} or (b) a {@item dagger|phb}",
+					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"(a) a grimoire which acts as your {@item spellbook|phb} and spellcasting focus."
 				],
 				"defaultData": [
 					{
-						"_": [
+						"a": [
+							"quarterstaff|phb"
+						],
+						"b": [
 							"dagger|phb"
-						]
-					},
-					{
-						"_": [
-							{
-								"special": "Star Globe"
-							}
-						]
-					},
-					{
-						"_": [
-							{
-								"special": "Divination Deck"
-							}
 						]
 					},
 					{
@@ -141,8 +129,18 @@
 						"b": [
 							"explorer's pack|phb"
 						]
+					},
+					{
+						"a": [
+							"spellbook|phb"
+						]
 					}
 				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"int": 13
+				}
 			},
 			"classTableGroups": [
 				{
@@ -480,7 +478,7 @@
 			"classFeatures": [
 				"Spellcasting|Scholar|FFXIV|1",
 				"Tactics|Scholar|FFXIV|1",
-                "Aetherial Ally|Scholar|FFXIV|2",
+                		"Aetherial Ally|Scholar|FFXIV|2",
 				{
 					"classFeature": "Scholar Specialization|Scholar|FFXIV|2",
 					"gainSubclassFeature": true
@@ -500,6 +498,7 @@
 					"classFeature": "Scholar Specialization Feature|Scholar|FFXIV|14",
 					"gainSubclassFeature": true
 				},
+				"Ability Score Improvement|Scholar|FFXIV|12",
 				"Quicksilver Summoning|Scholar|FFXIV|18",
 				"Ability Score Improvement|Scholar|FFXIV|19",
 				"Grand Design|Scholar|FFXIV|20"
