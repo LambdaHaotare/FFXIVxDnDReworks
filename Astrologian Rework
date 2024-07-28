@@ -25,7 +25,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 8,
+			"page": 29,
 			"shortName": "Sharlayan Astrology",
 			"subclassFeatures": [
 				"Sharlayan Astrology|Astrologian|FFXIV|Sharlayan Astrology|FFXIV|1",
@@ -40,7 +40,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 8,
+			"page": 29,
 			"shortName": "Geomancy",
 			"subclassFeatures": [
 				"Geomancy|Astrologian|FFXIV|Geomancy|FFXIV|1",
@@ -55,7 +55,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 8,
+			"page": 29,
 			"shortName": "Fortuneteller",
 			"subclassFeatures": [
 				"Fortuneteller|Astrologian|FFXIV|Fortuneteller|FFXIV|1",
@@ -79,6 +79,9 @@
 				"wis",
 				"cha"
 			],
+			"preparedSpells": "<$level$> + <$wis_mod$>",
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
 			"startingProficiencies": {
 				"armor": [
 					"light"
@@ -482,32 +485,32 @@
             },
 			"classFeatures": [
 				"Spellcasting|Astrologian|FFXIV|1",
-				"Divination Draw|Astrologian|FFXIV|1",
+				"Divination|Astrologian|FFXIV|1",
 				{
-					"classFeature": "Dviniation School|Astrologian|FFXIV|1",
+					"classFeature": "Divination School|Astrologian|FFXIV|1",
 					"gainSubclassFeature": true
 				},
 				"Astrodyne|Astrologian|FFXIV|2",
 				"Time Dilation|Astrologian|FFXIV|2",
 				{
-					"classFeature": "Dviniation School Feature|Astrologian|FFXIV|3",
+					"classFeature": "Divination School Feature|Astrologian|FFXIV|3",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Astrologian|FFXIV|4",
 				"Redivine|Astrologian|FFXIV|5",
 				{
-					"classFeature": "Dviniation School Feature|Astrologian|FFXIV|6",
+					"classFeature": "Divination School Feature|Astrologian|FFXIV|6",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Astrologian|FFXIV|8",
 				{
-					"classFeature": "Dviniation School Feature|Astrologian|FFXIV|10",
+					"classFeature": "Divination School Feature|Astrologian|FFXIV|10",
 					"gainSubclassFeature": true
 				},
 				"Spread|Astrologian|FFXIV|11",
 				"Ability Score Improvement|Astrologian|FFXIV|12",
 				{
-					"classFeature": "Dviniation School Feature|Astrologian|FFXIV|14",
+					"classFeature": "Divination School Feature|Astrologian|FFXIV|14",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Astrologian|FFXIV|16",
@@ -516,7 +519,7 @@
 				"Ability Score Improvement|Astrologian|FFXIV|19",
 				"Strings of Fate|Astrologian|FFXIV|20"
 			],
-			"subclassTitle": "Dviniation School",
+			"subclassTitle": "Divination School",
 			"fluff": [
 				{
 					"type": "section",
@@ -748,7 +751,7 @@
 		{
 			"name": "Spellcasting",
 			"source": "FFXIV",
-			"page": 35,
+			"page": 30,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"level": 1,
@@ -809,9 +812,9 @@
 			]
 		},
 		{
-			"name": "Divination Draw",
+			"name": "Divination",
 			"source": "FFXIV",
-			"page": 35,
+			"page": 30,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"level": 1,
@@ -874,7 +877,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 44,
+			"page": 31,
 			"level": 2,
 			"entries": [
 				"Beginning at 2nd level, you have learned to weave your spells to power your influence over the strings of fate. When you cast a spell using a spell slot, you regain a Divination."
@@ -885,7 +888,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 44,
+			"page": 31,
 			"level": 2,
 			"entries": [
 				"At 2nd level, you have learned how to delay the release of your spells, allowing them to grow in power or activate at the perfect moment. When you cast a spell you can choose to concentrate on the spell and as a reaction cause the spell to take effect. If you concentrate on the spell in this way until your next turn, its effect will be released as though you cast it one level higher than you originally cast it. You may only increase the spell level by one in this way.",
@@ -894,58 +897,58 @@
 			]
 		},
 		{
-			"name": "Dviniation School",
+			"name": "Divination School",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 30,
 			"level": 1,
 			"entries": [
-				"At 1st level, you choose the divination school you learned astromancy under: the Sharlayan school, Geomancy school or as an independent Fortuneteller, all detailed at the end of the class description. Your Dviniation School choice grants you features at the 1st, 3rd, 6th, 10th and 14th level."
+				"At 1st level, you choose the divination school you learned astromancy under: the Sharlayan school, Geomancy school or as an independent Fortuneteller, all detailed at the end of the class description. Your Divination School choice grants you features at the 1st, 3rd, 6th, 10th and 14th level."
 			]
 		},
 		{
-			"name": "Dviniation School Feature",
+			"name": "Divination School Feature",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 30,
 			"level": 3,
 			"entries": [
-				"At 3rd level, you gain a feature granted by your Dviniation School"
+				"At 3rd level, you gain a feature granted by your Divination School"
 			]
 		},
 		{
-			"name": "Dviniation School Feature",
+			"name": "Divination School Feature",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 30,
 			"level": 6,
 			"entries": [
-				"At 7th level, you gain a feature granted by your Dviniation School."
+				"At 7th level, you gain a feature granted by your Divination School."
 			]
 		},
 		{
-			"name": "Dviniation School Feature",
+			"name": "Divination School Feature",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 30,
 			"level": 10,
 			"entries": [
-				"At 11th level, you gain a feature granted by your Dviniation School."
+				"At 11th level, you gain a feature granted by your Divination School."
 			]
 		},
 		{
-			"name": "Dviniation School Feature",
+			"name": "Divination School Feature",
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 30,
 			"level": 14,
 			"entries": [
-				"At 15th level, you gain a feature granted by your Dviniation School."
+				"At 15th level, you gain a feature granted by your Divination School."
 			]
 		},
 		{
@@ -953,7 +956,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 30,
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -965,7 +968,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 30,
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -977,7 +980,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 30,
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -989,7 +992,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 30,
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1001,7 +1004,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 30,
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1013,7 +1016,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 31,
 			"level": 5,
 			"entries": [
 				"Beginning at the 5th level, when you use the Divination feature, as a bonus action you may reroll the result of the d6 before applying its effect. You may only use the new result."
@@ -1024,7 +1027,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 31,
 			"level": 11,
 			"entries": [
 				"Beginning at 10th level, you gain advantage on charisma saving throws.",
@@ -1036,7 +1039,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 31,
 			"level": 17,
 			"entries": [
 				"Beginning at the 17th level, when you use the Divination action, you may perform and use two divinations. Each result consumes an available divination. As a bonus action you may place one or both divinations into your spread."
@@ -1047,7 +1050,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 31,
 			"level": 18,
 			"entries": [
 				"Beginning at 18th level, as an action, you may expend an available divination to reapply a Divination effect on a creature within Divination range."
@@ -1058,7 +1061,7 @@
 			"source": "FFXIV",
 			"className": "Astrologian",
 			"classSource": "FFXIV",
-			"page": 45,
+			"page": 31,
 			"level": 20,
 			"entries": [
 				"Beginning at the 20th level, when you roll initiative you recover a number of available divinations equal to your Wisdom modifier."
@@ -1069,7 +1072,7 @@
 		{
 			"name": "Sharlayan Astrology",
 			"source": "FFXIV",
-			"page": 45,
+			"page": 31,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Sharlayan Astrology",
@@ -1086,7 +1089,7 @@
 		{
 			"name": "Fortunate Healing",
 			"source": "FFXIV",
-			"page": 45,
+			"page": 31,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Sharlayan Astrology",
@@ -1101,7 +1104,7 @@
 		{
 			"name": "Premoniton Reading",
 			"source": "FFXIV",
-			"page": 45,
+			"page": 31,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Sharlayan Astrology",
@@ -1116,7 +1119,7 @@
 		{
 			"name": "Aspected Benefic",
 			"source": "FFXIV",
-			"page": 45,
+			"page": 31,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Sharlayan Astrology",
@@ -1131,7 +1134,7 @@
 		{
 			"name": "Lightspeed",
 			"source": "FFXIV",
-			"page": 45,
+			"page": 31,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Sharlayan Astrology",
@@ -1146,7 +1149,7 @@
 		{
 			"name": "Astral Fortune",
 			"source": "FFXIV",
-			"page": 45,
+			"page": 32,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Sharlayan Astrology",
@@ -1161,7 +1164,7 @@
 		{
 			"name": "Geomancy",
 			"source": "FFXIV",
-			"page": 45,
+			"page": 32,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Geomancy",
@@ -1175,7 +1178,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Earthwalker|Astrologian|FFXIV|Geomancy|FFXIV|1"
+					"subclassFeature": "Whispers of the Earth|Astrologian|FFXIV|Geomancy|FFXIV|1"
 				}
 			]
 		},
@@ -1187,7 +1190,7 @@
 			"subclassShortName": "Geomancy",
 			"subclassSource": "FFXIV",
 			"level": 1,
-			"page": 96,
+			"page": 32,
 			"header": 1,
 			"entries": [
 				"{@i 2nd-level Geomancy feature}",
@@ -1229,7 +1232,7 @@
 			]
 		},
 		{
-			"name": "Earthwalker",
+			"name": "Whispers of the Earth",
 			"source": "FFXIV",
 			"page": 32,
 			"className": "Astrologian",
@@ -1309,7 +1312,7 @@
 		{
 			"name": "Leyline Manipulation: Cleared Paths",
 			"source": "FFXIV",
-			"page": 46,
+			"page": 32,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Geomancy",
@@ -1360,7 +1363,7 @@
 		{
 			"name": "Blessed Traveller",
 			"source": "FFXIV",
-			"page": 46,
+			"page": 32,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Geomancy",
@@ -1375,7 +1378,7 @@
 		{
 			"name": "Gaia Aura",
 			"source": "FFXIV",
-			"page": 45,
+			"page": 32,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Geomancy",
@@ -1390,7 +1393,7 @@
 		{
 			"name": "Fortuneteller",
 			"source": "FFXIV",
-			"page": 45,
+			"page": 32,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Fortuneteller",
@@ -1407,7 +1410,7 @@
 		{
 			"name": "Minor Arcana",
 			"source": "FFXIV",
-			"page": 46,
+			"page": 32,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Fortuneteller",
@@ -1423,7 +1426,7 @@
 		{
 			"name": "Twisting Fate",
 			"source": "FFXIV",
-			"page": 46,
+			"page": 33,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Fortuneteller",
@@ -1438,7 +1441,7 @@
 		{
 			"name": "Horoscope",
 			"source": "FFXIV",
-			"page": 46,
+			"page": 33,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Fortuneteller",
@@ -1453,7 +1456,7 @@
 		{
 			"name": "Reversed Fortune",
 			"source": "FFXIV",
-			"page": 46,
+			"page": 33,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Fortuneteller",
@@ -1516,7 +1519,7 @@
 		{
 			"name": "Greater Divination",
 			"source": "FFXIV",
-			"page": 45,
+			"page": 33,
 			"className": "Astrologian",
 			"classSource": "FFXIV",
 			"subclassShortName": "Fortuneteller",
