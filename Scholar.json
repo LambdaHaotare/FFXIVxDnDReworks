@@ -928,8 +928,8 @@
 			"source": "FFXIV",
 			"className": "Scholar",
 			"classSource": "FFXIV",
-			"page": 30,
-			"level": 125,
+			"page": 125,
+			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
@@ -1084,12 +1084,12 @@
 		{
 			"name": "Theoretical Origin",
 			"source": "FFXIV",
-			"page": 32,
+			"page": 126,
 			"className": "Scholar",
 			"classSource": "FFXIV",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "FFXIV",
-			"level": 126,
+			"level": 14,
 			"header": 2,
 			"entries": [
 				"{@i 14th-level Arcanist feature}",
