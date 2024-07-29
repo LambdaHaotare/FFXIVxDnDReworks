@@ -1226,7 +1226,7 @@
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"{@i 1st-level Tactician feature}",
+				"{@i 2nd-level Tactician feature}",
 				"Also beginning at 2nd level, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 ft. of you, if the target can see or hear you."
 			]
 		},
@@ -1371,7 +1371,7 @@
 				}
 			],
 			"entries": [
-                		"Requirement: 2nd level Arcanist",
+                "Requirement: 2nd level Arcanist",
 				"When your aetherial ally takes an action, as part of their action you may empower them. The target creature must make a Charisma saving throw against your spell save DC. On a failure, they have disadvantage on attacks made against targets that aren't your aetherial ally for 1 minute. The creature repeats the save at the end of their turn."			
 			],
 			"featureType": [
@@ -1543,7 +1543,7 @@
 			]
 		},
 		{
-			"name": "Emergency Tactics",
+			"name": "Ogi Namikiri",
 			"source": "FFXIV",
 			"page": 127,
 			"prerequisite": [
@@ -1551,7 +1551,7 @@
 					"level": {
 						"level": 6
 					},
-                        "otherSummary":{
+                    "otherSummary":{
 						"entrySummary": "Nymian"
 					}
 				}
@@ -1814,7 +1814,7 @@
 			"languages": [
 				"understands the languages of its summoner but can't speak"
 			],
-           	 "trait": [
+            "trait": [
 				{
 					"name": "Aetheric Bond",
 					"entries": [
