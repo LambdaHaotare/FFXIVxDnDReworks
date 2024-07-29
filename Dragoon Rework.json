@@ -23,7 +23,7 @@
 		{
 			"name": "Slayer",
 			"source": "FFXIV",
-			"page": 4,			
+			"page": 62,			
 			"className": "Dragoon",
 			"classSource": "FFXIV",
 			"shortName": "Slayer",
@@ -37,7 +37,7 @@
 		{
 			"name": "Dragon Heart",
 			"source": "FFXIV",
-			"page": 4,
+			"page": 62,
 			"className": "Dragoon",
 			"classSource": "FFXIV",
 			"shortName": "Dragon Heart",
@@ -51,7 +51,7 @@
 		{
 			"name": "Valkyrie",
 			"source": "FFXIV",
-			"page": 4,
+			"page": 62,
 			"className": "Dragoon",
 			"classSource": "FFXIV",
 			"shortName": "Valkyrie",
