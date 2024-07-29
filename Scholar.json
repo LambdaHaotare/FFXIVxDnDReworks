@@ -1011,8 +1011,8 @@
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Arcanist feature}",
-				"Beginning at 3rd level, you may expend an available draw to assist you in revealing dangers of the area. As an action you may do a quick reading to scan for traps in the area, giving you advantage on perception checks for 1 minute."
+				"{@i 2nd-level Arcanist feature}",
+				"Starting at 2nd level, your aetherial ally deals bonus damage equal to your Intelligence modifier when it makes an attack."
 			]
 		},
 		{
@@ -1126,7 +1126,7 @@
 			"level": 2	,
 			"header": 2,
 			"entries": [
-				"{@i 1th-level Arcanist feature}",
+				"{@i 2nd-level Arcanist feature}",
 				"Starting at the 2nd level, your healing spells have the potential to cause a critical heal. When you cast a healing spell and one of the die results in its highest possible result. Roll another die of the same value and add that number to the amount of hit points recovered. A critical heal may only occur once per healing spell."
 			]
 		},
@@ -1210,7 +1210,7 @@
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"{@i 1st-level Tactician feature}",
+				"{@i 2nd-level Tactician feature}",
 				"Beginning at the 2nd level, you have opted to take up the blade alongside the book to protect yourself on the battle field. You gain proficiency in light armor, shields, simple and martial weapons. You may use your weapon as a casting focus to satisfy the somantic component. You gain one extra hitpoint when you level up, including reaching the 2nd level.",
 				"Additionally, you can memorize additional tactics equal to your proficiency bonus."
 			]
@@ -1371,7 +1371,7 @@
 				}
 			],
 			"entries": [
-                "Requirement: 2nd level Arcanist",
+                		"Requirement: 2nd level Arcanist",
 				"When your aetherial ally takes an action, as part of their action you may empower them. The target creature must make a Charisma saving throw against your spell save DC. On a failure, they have disadvantage on attacks made against targets that aren't your aetherial ally for 1 minute. The creature repeats the save at the end of their turn."			
 			],
 			"featureType": [
@@ -1543,7 +1543,7 @@
 			]
 		},
 		{
-			"name": "Ogi Namikiri",
+			"name": "Emergency Tactics",
 			"source": "FFXIV",
 			"page": 127,
 			"prerequisite": [
@@ -1551,7 +1551,7 @@
 					"level": {
 						"level": 6
 					},
-                    "otherSummary":{
+                        "otherSummary":{
 						"entrySummary": "Nymian"
 					}
 				}
@@ -1814,7 +1814,7 @@
 			"languages": [
 				"understands the languages of its summoner but can't speak"
 			],
-            "trait": [
+           	 "trait": [
 				{
 					"name": "Aetheric Bond",
 					"entries": [
