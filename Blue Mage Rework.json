@@ -82,7 +82,7 @@
 				"dex",
 				"int"
 			],
-			"casterProgression": "pact",
+			"casterProgression": "full",
 			"startingProficiencies": {
 				"weapons": [
 					"simple",
@@ -1133,6 +1133,7 @@
 			"subclassSource": "FFXIV",
 			"level": 1,
 			"spellcastingAbility": "int",
+			"preparedSpells": "<$level$> + <$int_mod$>",
 			"entries": [
 				"Studious and thorough, the Lore Keepers are experts at noting details and learning about creatures of all shapes and sizes. Capable of understanding one's nature at a glance, they can both help their allies strategize, and rapidly understand the deeper details of their foes",
 				{
@@ -1237,6 +1238,7 @@
 			"subclassSource": "FFXIV",
 			"level": 1,
 			"spellcastingAbility": "wis",
+			"preparedSpells": "<$level$> + <$wis_mod$>",
 			"entries": [
 				"In the far east in the land of Hingashi, Geomancers fill the role of diviners in society. These scholars look to the leylines of the planet and divination tools related to the earth and bells to read markings in the land to perceive potential futures, as though fate had been imprinted upon the ground we walk, its the Geomancers with the ability to uncover these secrets.",
 				{
@@ -1416,6 +1418,7 @@
 			"subclassSource": "FFXIV",
 			"level": 1,
 			"spellcastingAbility": "cha",
+			"preparedSpells": "<$level$> + <$cha_mod$>",
 			"entries": [
 				"The Whalaqee are known in many scholarly circles as the original creators of blue magic. Hailing from the land known as 'The New World' the Whalaqee's magic was noted as strange to visitors from afar, using their aether to mimic the strength of monsters and unleash their power. The Whalaqee are a people who live in harmony with nature and use what they view as the strength of the natural world to defend it.",
 				{
@@ -2184,6 +2187,87 @@
 			],
 			"featureType": [
 				"BLU:MM"
+			]
+		}
+		
+	],
+	"monster": [
+		{
+			"name": "Carbuncle",
+			"source": "FFXIV",
+			"summonedByClass": "Scholar|FFXIV",
+			"page": 33,
+			"size": [
+				"S"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "12 + PB"
+				}
+			],
+			"hp": {
+				"special": "4 + four times your arcanist level (the carbuncle has a number of Hit Dice [d6s] equal to your arcanist level)."
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"passive": 12,
+			"languages": [
+				"understands the languages of its summoner but can't speak"
+			],
+			"action": [
+				{
+					"name": "Downburst",
+					"entries": [
+						"{@atk ms} {@hitYourSpellAttack} to hit, reach 5 ft. one target. {@h}9 ({@damage 1d6 + 2 + PB}) thunder damage"
+					]
+				},
+				{
+					"name": "Gust",
+					"entries": [
+						"{@atk rs} {@hitYourSpellAttack} to hit, range 30 ft., one target. {@h}8 ({@damage 1d6 + 2 + PB}) thunder damage."
+					]
+				},
+				{
+					"name": "Back Draft {@recharge}",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 2 + PB}) thunder damage. When a creature is damaged by Back Draft they must make a Strength saving throw against your spell save DC. On a failed save, the target is knocked back 10 ft., and are not knocked back on a successful save."
+					]
+				}
+			],
+			"group": [
+				"Arcanist Summons"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "section",
+						"name": "Tactician's Carbuncles",
+						"page": 33,
+						"entries": [
+							"Carbuncles are fox-like creatures with long rabbit like ears who are summoned by Tacticians as their stalwart allies. These creatures can come in a variety of colours based on the colours of gem stones, but their bodies are formed of materialized aether. The most common appearances of the carbuncles are Emerald and Topaz coloured. All carbuncles are based upon the summoning frame work of emerald and topaz, allowing variation in appearance but the functionality remains the same."
+						]
+					}
+				]
+			},
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"T"
+			],
+			"miscTags": [
+				"MW"
 			]
 		}
 	]
